@@ -1,6 +1,7 @@
 <?php
 
 return [
+    'middleware' => 'auth:api',
     /*
     |--------------------------------------------------------------------------
     | Kustomer Feedback Icon

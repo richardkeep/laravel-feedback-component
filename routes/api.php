@@ -2,4 +2,4 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::post('feedback', 'FeedbackController@store')->name('feedback.store')->middleware('auth:api');
+Route::post('feedback', 'FeedbackController@store')->name('feedback.store');
